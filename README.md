@@ -9,8 +9,9 @@ import dclnt
 verb_stat = dclnt.get_top_verbs_in_path("/django")
 
 print('total %s verbs, %s unique' % (len(verb_stat), len(set(verb_stat))))
+
 for verb, occurence in dclnt.get_top(verb_stat, top_size):
-    print(verb, occurence)
+   print(verb, occurence)
 
 It allows to get next information:
 
