@@ -4,7 +4,7 @@ It allows to calculate some word's statistics.
 
 # Usage
 
-'import dclnt'
+<import dclnt>
 
 verb_stat = dclnt.get_top_verbs_in_path("/django")
 
